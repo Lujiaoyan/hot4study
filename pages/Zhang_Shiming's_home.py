@@ -39,18 +39,18 @@ def page4():
     st.write('留言区')
 def page5():
     '音乐'
-    st.write('音乐')
-    st.write('-------------------------------------------------')
-    st.write('Hillsong Young And Free-Wake.flac')
-    with open('Hillsong Young And Free-Wake.flac','rb') as f:
-        mymp3 = f.read()
-    st.audio(mymp3,format='flac',start_time=0)
-    st.write('-------------------------------------------------')
-    st.write('某科学的超电磁炮 - only my railgun.mp3')
-    with open('某科学的超电磁炮 - only my railgun.mp3','rb') as f:
-        mymp2 = f.read()
-    st.audio(mymp2,format='audio/mp3',start_time=0)
-    st.write('-------------------------------------------------')
+    # st.write('音乐')
+    # st.write('-------------------------------------------------')
+    # st.write('Hillsong Young And Free-Wake.flac')
+    # with open('Hillsong Young And Free-Wake.flac','rb') as f:
+    #     mymp3 = f.read()
+    # st.audio(mymp3,format='flac',start_time=0)
+    # st.write('-------------------------------------------------')
+    # st.write('某科学的超电磁炮 - only my railgun.mp3')
+    # with open('某科学的超电磁炮 - only my railgun.mp3','rb') as f:
+    #     mymp2 = f.read()
+    # st.audio(mymp2,format='audio/mp3',start_time=0)
+    # st.write('-------------------------------------------------')
 if page == '兴趣推荐':
     page1()
 elif page == '图片处理工具':
