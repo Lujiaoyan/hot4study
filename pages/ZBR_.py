@@ -5,23 +5,20 @@ page = st.sidebar.radio('我的手页',['我的兴趣推荐','我的图片处理
 
 def page_1():
     '''我的兴趣推荐'''
-    st.write()
-    st.image()
+    st.write('看我的兴趣推荐')
+    st.image('ClassIn_20240804210232.jpeg')
     
 def page_2():
     '''我的图片处理工具'''
-    st.write()
-    st.image()
+    pass
     
 def page_3():
     '''我的智慧词典'''
-    st.write()
-    st.image()
+    pass
 
 def page_4():
     '''我的留言区'''
-    st.write()
-    st.image()
+    pass
 
 if page == '我的兴趣推荐':
     page_1()
