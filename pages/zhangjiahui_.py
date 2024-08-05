@@ -5,7 +5,7 @@ page = st.sidebar.radio("我的首页",['我的兴趣推荐','我的图片处理
 def page1():
     '''我的兴趣推荐'''
     st.write('欢迎来到我的兴趣推荐~')
-    st.image("slogan.jpg")
+    st.image("h3R3.jpg")
     
 def page2():
     '''我的图片处理工具'''
